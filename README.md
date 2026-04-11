@@ -48,7 +48,7 @@ You will need a USB thumb drive on which there is nothing of value. Important: A
 	- Otherwise click *Yes*.
 - You'll see something like: 
 
-![Rufus](assets\rufus.png)
+![Rufus](assets/rufus.png)
 
 - Verify that the _Device_ listed matches your USB memory stick. If it doesn't, then use the drop-down to select the correct memory stick.
 - Click the _SELECT_ button and navigate to the ShredOS image previously downloaded, select it and click _Open_
