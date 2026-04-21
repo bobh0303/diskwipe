@@ -170,6 +170,7 @@ The `nwipe` utility (Alt-F1 window for ShredOS) provides numerous erase methods 
 - Gutmann Wipe - Peter Gutmann's method (Secure Deletion of Data from Magnetic and Solid-State Memory).
 - PRNG Stream - Fills the device with a stream from the PRNG (Pseudo-Random Number Generator)
 - HMG IS5 enhanced - Secure Sanitisation of Protectively Marked Information or Sensitive Information
+
 For home computers, I'd recommend *DoD Short* which is 3 passes the last of which is to write random values.  If you're in a hurry and not as concerned with someone reading your data (e.g., you're giving the computer to someone you know) the *PRNG Stream* is probably sufficient.
 
 The steps are:
