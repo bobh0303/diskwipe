@@ -100,6 +100,7 @@ Before doing anything else, let's...
 There are two kinds of storage "disks" that you might encounter:
 - Older computers have mechanically rotating disks called a Hard Disk Drive (HDD)
 - Newer computers use solid state devices and are called a Solid State Drive (SSD)
+
 These two types require *two different techniques* to securely erase them. So it is essential that  you know which kind your computer has.
 
 Since you have already booted your machine into ShredOS, the easiest way to determine this is to:
@@ -183,7 +184,7 @@ The steps are:
 
 ### Step 6: For any SSD:
 
-For SSD storage devices the process is called _sanitizing_ and doesn't actually take very long. If you can do it from the BIOS (See [[#Step1 Use machine's BIOS secure erase if available]]), that is the preferred method.
+For SSD storage devices the process is called _sanitizing_ and doesn't actually take very long. If you can do it from the BIOS (See [Step1: Use machine's BIOS secure erase if available](#step1-use-machines-bios-secure-erase-if-available)), that is the preferred method.
 
 If the BIOS approach isn't available, you'll have to use the ShredOS virtual terminal (Alt-F2). For detailed instructions, please refer [ShredOS documentation](https://github.com/PartialVolume/shredos.x86_64?tab=readme-ov-file#wipe-ssd-and-nvme-using-hdparm-and-nvme-cli). (Note that section covers both SSD and NVME; you likely won't have or need to sanitize NVME so can ignore that part of the instructions, but if you do you'll already know that ;-)
 
